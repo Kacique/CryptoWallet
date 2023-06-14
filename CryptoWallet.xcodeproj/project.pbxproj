@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		343F1D892A38F3FE002750EB /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343F1D882A38F3FE002750EB /* CoinRowView.swift */; };
 		343F1D8B2A38F483002750EB /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343F1D8A2A38F483002750EB /* PreviewProvider.swift */; };
+		3456F66E2A3A40F300E1F02E /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456F66D2A3A40F300E1F02E /* Double.swift */; };
 		346FBFA52A2FAAAD0065DBF9 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346FBFA42A2FAAAD0065DBF9 /* CircleButtonAnimationView.swift */; };
 		34A334172A373BE1009C6122 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A334162A373BE1009C6122 /* CoinModel.swift */; };
 		34AFDACD2A2F5860000E8FA7 /* CryptoWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AFDACC2A2F5860000E8FA7 /* CryptoWalletApp.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		343F1D882A38F3FE002750EB /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		343F1D8A2A38F483002750EB /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		3456F66D2A3A40F300E1F02E /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		346FBFA42A2FAAAD0065DBF9 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 		34A334162A373BE1009C6122 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		34AFDAC92A2F5860000E8FA7 /* CryptoWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,7 @@
 			children = (
 				34AFDADB2A2F64C0000E8FA7 /* Color.swift */,
 				343F1D8A2A38F483002750EB /* PreviewProvider.swift */,
+				3456F66D2A3A40F300E1F02E /* Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				34AFDADC2A2F64C0000E8FA7 /* Color.swift in Sources */,
 				346FBFA52A2FAAAD0065DBF9 /* CircleButtonAnimationView.swift in Sources */,
 				343F1D8B2A38F483002750EB /* PreviewProvider.swift in Sources */,
+				3456F66E2A3A40F300E1F02E /* Double.swift in Sources */,
 				34A334172A373BE1009C6122 /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
