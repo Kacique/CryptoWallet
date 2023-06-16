@@ -10,11 +10,15 @@
  */
 
 import Foundation
+import Combine
 
 class HomeViewModel: ObservableObject{
     
     @Published var allCoins: [CoinModel] = []
     @Published var portFolioCoins: [CoinModel] = []
+    
+    private let dataService = CoinDataService()
+    private var cancellables = Set<AnyCancellable>()
     
     init(){
         // Simulates a fetch request
@@ -22,5 +26,13 @@ class HomeViewModel: ObservableObject{
             self.allCoins.append(DeveloperPreview.instance.coin)
             self.portFolioCoins.append(DeveloperPreview.instance.coin)
         }
+    }
+    
+    func addSubscribers(){
+        dataService.$allCoins
+            .sink{ [weak self] (returnedCoins) in
+                self?.allCoins = returnedCoins
+            }
+            .store(in: &cancellables)
     }
 }
